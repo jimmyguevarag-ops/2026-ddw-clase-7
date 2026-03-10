@@ -11,3 +11,24 @@
 p{
     font-size: 20px;
 }
+
+
+/* Backgrounds */
+/* h1{
+    background-color: tomato;
+} */
+
+body{
+    height: 700px;
+
+    /* background-image: url("../img/logo-css.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+
+    /* Short-hand */
+    background: white  url("../img/logo-css.jpg") center no-repeat;
+
+
+    /* background-position-x: right; */
+    /* background-position-y: bottom; */
+}
