@@ -26,9 +26,31 @@ body{
     /* background-position: center; */
 
     /* Short-hand */
-    background: white  url("../img/logo-css.jpg") center no-repeat;
+    background: white url("../img/logo-css.jpg") center no-repeat;
 
 
     /* background-position-x: right; */
     /* background-position-y: bottom; */
+
+
+    
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase
+}
+
+p{
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 5px;
+
+
+    /* Short-hand */
+    font: italic bold 20px Georgia, sans-serif;
 }
